@@ -1,0 +1,33 @@
+.logo {
+    color: var(--main-brand-color);
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+    padding-top: 24px;
+    padding-bottom: 25px;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--paragraph-color);
+    }
+  }
+
+  .logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .white {
+    color: var(--primary-white-color);
+  }
+  
+ 
