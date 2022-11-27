@@ -687,8 +687,8 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-card:hover .project-overlay-text,
-.project-card:focus .project-overlay-text {
+.project-link:hover .project-overlay-text,
+.project-link:focus .project-overlay-text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
