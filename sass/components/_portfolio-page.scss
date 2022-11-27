@@ -79,6 +79,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .project-card:hover .project-overlay-text {
+  .project-card:hover .project-overlay-text,
+  .project-card:focus .project-overlay-text {
     transform: translateY(0);
   }
